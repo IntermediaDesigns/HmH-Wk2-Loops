@@ -17,7 +17,7 @@ if (response === 'length') {
 
   alert(`${enterAnswer} has ${count} characters.`)
 } else if (response === 'yell') {
-  const userInput = prompt('Enter your word to yell:')
+  const enterAnswer = prompt('Enter your word to yell:')
   let output = ''
   for (let i = 0; i < enterAnswer.length; i++) {
     output = output + enterAnswer[i].toUpperCase()
